@@ -16,6 +16,7 @@ public class Singleton
         {
             if(_instance == null)
             {
+                
                 Debug.Log("CreateSingleton");
                 _instance = new Singleton();
             }
