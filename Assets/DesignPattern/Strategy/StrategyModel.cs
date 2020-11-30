@@ -40,7 +40,8 @@ namespace Strategy
     public class StrategyB : Strategy
     {
         public override void AlgorithmInterface()
-         
+            
+           
         {
             Debug.Log("算法B");
         }
@@ -54,6 +55,7 @@ namespace Strategy
     }
     public interface Test
     {
+        
          StrategyC StrategyC { get; set; }
         
     }
